@@ -46,7 +46,8 @@ for (i = 0; i<venues.length; i+=2){
 
 const images = ["https://eventective-media.azureedge.net/1748095_lg.jpg", "https://goop-img.com/wp-content/uploads/2018/04/Nowadays-5_preview.jpeg", "https://cdn4.pitchfork.com/longform/318/IMG_4057.jpg", "https://static.dezeen.com/uploads/2019/10/public-records-interiors-renovation-bar-restaurant-club-brooklyn-new-york-usa_dezeen_2364_col_7-852x568.jpg"]
 
-for (i = 0; i<venues.length; i+=1){
+
+for (i = 0; i<images.length; i+=1){
     let image = images[i];
     const newImage = document.createElement('img');
     newImage.src = image;
@@ -54,5 +55,4 @@ for (i = 0; i<venues.length; i+=1){
     newImage.style.marginBottom = "25px";
     newImage.style.width = "300px";
     newImage.style.alignItems = "center";
-    // newDiv.style.display = "inline-block"
 }
