@@ -37,11 +37,13 @@ for (i = 0; i<venues.length; i+=2){
     const newLink = document.createElement('a');
     newLink.textContent = venue;
     childSection.appendChild(newLink);
-    // newLink.href = venues[i+1];
+    newLink.href = venues[i+1];
     newLink.style.display = "inline-block"
     newLink.style.marginBottom = "5px";
     newLink.style.textAlign = "center"
     newLink.style.color = "black"
+    newLink.style.fontFamily = "Arial"
+
 }
 
 const images = ["https://eventective-media.azureedge.net/1748095_lg.jpg", "https://goop-img.com/wp-content/uploads/2018/04/Nowadays-5_preview.jpeg", "https://cdn4.pitchfork.com/longform/318/IMG_4057.jpg", "https://static.dezeen.com/uploads/2019/10/public-records-interiors-renovation-bar-restaurant-club-brooklyn-new-york-usa_dezeen_2364_col_7-852x568.jpg"]
